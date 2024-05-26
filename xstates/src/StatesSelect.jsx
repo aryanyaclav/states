@@ -101,7 +101,7 @@ export default function StatesSelect() {
             }
         </select>
         </div>
-        {location ? <div className={styles.locationTab}>You Selected {selectedCity}, {selectedState}, {selectedCountry}</div> : ''}
+        {location ? <div className={styles.locationTab}>You selected {selectedCity}, {selectedState}, {selectedCountry}</div> : ''}
     </div>
   )
 }
